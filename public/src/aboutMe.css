@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    color: white;
+}
+
+.aboutMe-about {
+    color: white;
+    display: block;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    margin-top: 7%;
+    font-size: 25px;
+}
+
+.aboutMe-bio {
+    margin-left: 51%;
+}
+
+.aboutMe-back {
+    border: 3px solid white;
+    width: 35px;
+    color: white;
+    margin-top: 15%;
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+}

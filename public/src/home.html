@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio site</title>
+    <link rel="stylesheet" href="home.css" />
+    <script src="home.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box left-box">
+        <nav class="nav-bar">
+          <a href="home.html">Home</a>
+          <a href="aboutMe.html">About Me</a>
+          <a href="skills.html">Skills</a>
+          <a href="resume.html">Resume</a>
+        </nav>
+        <h1 class="left-box-summary">I'm <span class="auto-type"></span></h1>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+          var typed = new Typed('.auto-type', {
+            strings: [
+              "a Software Engineer.",
+              "an aspiring YouTuber.",
+              "a Pursuit Fellow.",
+              "Angel Tirado.",
+            ],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+          });
+        </script>
+        <div class="left-box-socials">
+          <a href="https://github.com/atiradoGit88">
+            <img
+              class="left-box-github-icon"
+              src="/public/src/images/icons8-github-100.png"
+            />
+          </a>
+
+          <a href="https://www.linkedin.com/in/angel-tirado-22b921175/">
+            <img
+              class="left-box-linkdeIn-icon"
+              src="/public/src/images/linkedin-app-white-icon.webp"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="box right-box">
+        <p class="right-box-welcome-statement">
+          Hello, my name is Angel Tirado.
+        </p>
+        <img src="" />
+      </div>
+    </div>
+  </body>
+</html>

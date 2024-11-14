@@ -7,16 +7,16 @@ body {
 
 .aboutMe-about {
     color: white;
-    display: block;
-    margin-bottom: 15%;
-    margin-left: 15%;
+    margin-bottom: 8%;
+    margin-left: 10%;
     margin-top: 7%;
     font-size: 25px;
 }
 
-.aboutMe-bio {
-    margin-left: 51%;
+.aboutMe-intro {
+    margin-left: 10%;
 }
+
 
 .aboutMe-back {
     border: 3px solid white;
@@ -28,4 +28,18 @@ body {
 
 a {
     color: white;
+}
+
+.aboutMe-bio{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 10%;
+    font-size: 20px;
+    top: -230px;
+}
+
+.aboutMe-portrait{
+    height: auto;
+    width: 600px;
 }
